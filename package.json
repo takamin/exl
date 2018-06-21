@@ -1,0 +1,37 @@
+{
+  "name": "exl",
+  "version": "0.1.0",
+  "description": "The command-line XLSX operator",
+  "main": "index.js",
+  "bin": {
+    "exl": "bin/exl.js"
+  },
+  "scripts": {
+    "hello": "node ./bin/exl.js [sample/sample.xlsx]Sheet1!A1 && node ./bin/exl.js [sample/sample.xlsx]Sheet1!B1",
+    "set-str": "node ./bin/exl.js [sample/sample.xlsx]Sheet1!B1 Exl",
+    "set-num": "node ./bin/exl.js [sample/sample.xlsx]Sheet1!B1 999 number",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takamin/exl.git"
+  },
+  "keywords": [
+    "excel",
+    "xlsx",
+    "cli"
+  ],
+  "author": "Koji Takami <vzg03566@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takamin/exl/issues"
+  },
+  "homepage": "https://github.com/takamin/exl#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "exceljs": "^1.4.13"
+  }
+}

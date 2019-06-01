@@ -1,6 +1,6 @@
 {
   "name": "exl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The command-line XLSX operator",
   "main": "index.js",
   "bin": {
@@ -28,10 +28,10 @@
   },
   "homepage": "https://github.com/takamin/exl#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   },
   "dependencies": {
-    "exceljs": "^1.4.13"
+    "exceljs": "^1.12.0"
   }
 }

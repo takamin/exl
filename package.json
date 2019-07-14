@@ -1,6 +1,6 @@
 {
   "name": "exl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The command-line XLSX operator",
   "main": "index.js",
   "bin": {
@@ -32,6 +32,6 @@
     "mocha": "^6.1.4"
   },
   "dependencies": {
-    "exceljs": "^1.12.0"
+    "exceljs": "^1.13.0"
   }
 }

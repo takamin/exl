@@ -32,6 +32,6 @@
     "mocha": "^10.2.0"
   },
   "dependencies": {
-    "exceljs": "^1.13.0"
+    "exceljs": "^4.4.0"
   }
 }
